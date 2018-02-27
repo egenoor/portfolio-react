@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Arial";
+}
+.navbar{
+    background-color: black;
+    height: 2em;
+    width: 100%;
+}
+
+.navbar-btn{
+    font-family: "Arial Black";
+    color: aliceblue;
+    float: right;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.navbar-btn:hover{
+    color: #b4b4b4;
+    transition: 1s;
+}
+
+.logo-container{
+    padding: 0.2em;
+    display: inline-block;
+    width: 1.5em;
+}
+
+.img-container{
+    width: 50%;
+    height: auto;
+}

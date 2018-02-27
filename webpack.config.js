@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
     entry: './src/app.js',
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "./../egenoor.github.io"),
         filename:  './app.bundle.js',
         publicPath: "/"
     },
@@ -23,11 +23,14 @@ module.exports = {
                 test: /\.js$/,
                 exclude: path.resolve(__dirname, "/node_modules/"),
                 use: 'babel-loader'
-            }
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader' }
         ]
     },
     devServer:{
-        contentBase: path.join(__dirname, "dist"),
+        contentBase: path.join(__dirname, "./../egenoor.github.io"),
         compress: false,
         publicPath: "/",
         historyApiFallback: true,

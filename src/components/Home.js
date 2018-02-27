@@ -1,4 +1,5 @@
 import React from 'react';
+import BalloonLogo from './../assets/airballoon_logo.svg'
 
 class Home extends React.Component{
     constructor(props){
@@ -7,7 +8,9 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <p>Hello!</p>
+                <div className="img-container">
+                    <span dangerouslySetInnerHTML={{__html: BalloonLogo}} />
+                </div>
             </div>
         )
     }
