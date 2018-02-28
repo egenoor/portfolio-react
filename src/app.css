@@ -4,9 +4,22 @@ body{
     background-color: rgb(245, 245, 245);
     font-family: "Arial";
 }
+
+.app-wrapper{
+    min-height: 100vh;
+}
+
+.footer{
+    position: relative;
+    background-color: black;
+    height: 10em;
+    width: 100%;
+}
+
 h1{
     text-align: center;
 }
+
 .navbar{
     background-color: black;
     height: 2em;
@@ -42,7 +55,7 @@ h1{
 .image-container{
     width: 100%;
     height: auto;
-    margin-top: 5em;
+    
 }
 .image-container img{
     display: block;
@@ -55,8 +68,8 @@ h1{
 }
 
 .enity img{
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 .bc-container{
     width: 50%;
@@ -67,6 +80,7 @@ h1{
     display: block;
     margin: auto;
     max-width: 90%;
+    margin-bottom: 3em;
 }
 .inline{
     margin: 0 auto;
@@ -87,7 +101,7 @@ h1{
 .banner-container img{
     display: block;
     margin: auto;
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 
@@ -95,11 +109,55 @@ h1{
     width: 50%;
     height: auto;
     float: left;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 .sketch-container img{
     display: block;
     margin: auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     max-width: 90%;
+}
+
+.description{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4em;
+}
+
+.copyright{
+    position: absolute;
+    top: 2em;
+    left: 45em;
+    color: rgba(211, 211, 211, 0.5);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Verdana;
+}
+
+.copyright-container{
+    margin-top: 3em;
+    position: relative;
+}
+
+.logo-cont{
+    margin-bottom: 4em;
+}
+
+.bc-cont{
+    margin-bottom: 4em;
+}
+
+.ps-project{
+    width: 100%;
+    height: auto;
+}
+
+.ps-project img{
+    display: block;
+    margin: auto;
+}
+
+ps-cont{
+    width: 100%;
+    height: auto;
 }
