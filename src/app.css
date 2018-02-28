@@ -126,8 +126,7 @@ h1{
 
 .copyright{
     position: absolute;
-    top: 2em;
-    left: 45em;
+    left: 42%;
     color: rgba(211, 211, 211, 0.5);
     text-align: center;
     font-size: 1.5em;
