@@ -6,7 +6,6 @@ import DTIbanner from './../assets/eventfoto3.jpg';
 import BusinessC1 from './../assets/visiitkaart_white.png';
 import BusinessC2 from './../assets/visiitkaart_white2.png';
 import Enity from './../assets/ENITY_veebipood.png';
-import ProjectPS from './../assets/project_02.png'; 
 
 class Home extends React.Component{
     constructor(props){
@@ -37,14 +36,6 @@ class Home extends React.Component{
                     <img src={DTIbanner} />
                     <div className="description">
                         <p>DTI Christmas Party banner for Facebook event. [Adobe Photoshop CC 2015; Adobe Illustrator CC 2017] </p>
-                    </div>
-                </div>
-                <div classname="ps-cont">
-                    <div classname="ps-project">
-                        <img src={ProjectPS} />
-                        <div className="description">
-                            <p>[Adobe Photoshop CC 2015]</p>
-                        </div>
                     </div>
                 </div>
                 <div className="inline">
