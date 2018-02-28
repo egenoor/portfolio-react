@@ -11,7 +11,7 @@ class Footer extends React.Component{
             return(
                 <div className="footer">
                     <div className="copyright-container">
-                        <p className="copyright">© Copyright 2018 Ege-Rita Noor</p>
+                        <p className="copyright"></p>
                     </div>
                 </div>
             )

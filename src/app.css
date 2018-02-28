@@ -124,7 +124,7 @@ h1{
     margin-top: 4em;
 }
 
-.copyright{
+/*.copyright{
     display: hidden;
     position: absolute;
     left: 42%;
@@ -133,11 +133,12 @@ h1{
     font-family: Verdana;
 }
 
+
 .copyright-container{
     margin-top: 3em;
     position: relative;
 }
-
+*/
 .logo-cont{
     margin-bottom: 4em;
 }
