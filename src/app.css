@@ -154,6 +154,8 @@ h1{
 .ps-project img{
     display: block;
     margin: auto;
+    width: 50%;
+    height: 50%;
 }
 
 ps-cont{
