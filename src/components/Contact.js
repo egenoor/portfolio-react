@@ -11,7 +11,7 @@ class Contact extends React.Component{
     render(){
         return(
             <div>
-
+                <h1> Nothing here yet! </h1>
             </div>
         )
     }

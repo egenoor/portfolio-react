@@ -4,7 +4,7 @@
 import React from "react"
 
 import { Link } from "react-router-dom"
-import Logo from './../assets/logo.svg'
+import Logo from './../assets/logo.png'
 
 class Header extends React.Component{
     constructor(props){
@@ -15,17 +15,18 @@ class Header extends React.Component{
             <div>
                 <div className="navbar">
                     <div className="logo-container">
-                        <span dangerouslySetInnerHTML={{__html: Logo}} />
+                        <img src={Logo} />
+                        <Link to="/contact">
+                            <div className="navbar-btn">CONTACT</div>
+                        </Link>
+                        <Link to="/portfolio">
+                            <div className="navbar-btn">PORTFOLIO</div>
+                        </Link>
+                        <Link to="/">
+                            <div className="navbar-btn">SHOWCASE</div>
+                        </Link>
                     </div>
-                    <Link to="/contact">
-                        <div className="navbar-btn">CONTACT</div>
-                    </Link>
-                    <Link to="/portfolio">
-                        <div className="navbar-btn">PORTFOLIO</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="navbar-btn">SHOWCASE</div>
-                    </Link>
+                    
                 </div>
             </div>
         )

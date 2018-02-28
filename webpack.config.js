@@ -2,6 +2,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var path = require('path');
 
+
 module.exports = {
     entry: './src/app.js',
     output: {
@@ -11,6 +12,10 @@ module.exports = {
     },
     module: {
         rules:[
+            {
+                test: /\.svg$/,
+                loader: 'svg-react-loader',
+            },
             {
                 test: /\.css$/,
                 use: ExtractTextPlugin.extract({
@@ -25,8 +30,15 @@ module.exports = {
                 use: 'babel-loader'
             },
             {
-                test: /\.svg$/,
-                loader: 'svg-inline-loader' }
+                test: /\.(png|jp(e*)g)$/,  
+                use: [{
+                    loader: 'url-loader',
+                    options: { 
+                        limit: 8000, // Convert images < 8kb to base64 strings
+                        name: 'images/[hash]-[name].[ext]'
+                    } 
+                }]
+            }
         ]
     },
     devServer:{
