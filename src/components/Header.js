@@ -24,7 +24,7 @@ class Header extends React.Component{
                     </Link>
 {/*                    <Link to="/portfolio">
                         <div className="navbar-btn">PORTFOLIO</div>
-                    </Link>*/}
+                     </Link>*/}
                     <Link to="/">
                         <div className="navbar-btn">SHOWCASE</div>
                     </Link>

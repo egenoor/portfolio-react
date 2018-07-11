@@ -5,8 +5,25 @@ body{
     font-family: "Arial";
 }
 
-.app-wrapper{
-    min-height:100vh;
+.app-wrapper {
+    min-height: 100vh;
+}
+
+/*.footer{
+    position: relative;
+    background-color: black;
+    height: 10em;
+    width: 100%;
+}*/
+
+h1{
+    text-align: center;
+}
+
+.navbar{
+    background-color: black;
+    height: 2em;
+    width: 100%;
 }
 
 .footer{
@@ -25,7 +42,7 @@ h1{
     width:100%;
 }
 .navbar-btn{
-    font-family:Arial Black;
+    font-family: "Arial Black";
     color:#f0f8ff;
     float:right;
     padding-right:1em;
@@ -134,7 +151,8 @@ h1{
     width:50%;
     height:50%;
 }
-ps-cont{
+
+.ps-cont{
     width:100%;
     height:auto;
 }
@@ -145,7 +163,7 @@ ps-cont{
 }
 
 .contact-container img{
-    width: 100%
+    width: 100%;
 }
 
 .contact{
@@ -161,3 +179,4 @@ ps-cont{
 #smalltag{
     font-size: 0.7em;
 }
+

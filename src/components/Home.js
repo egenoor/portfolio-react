@@ -16,7 +16,6 @@ class Home extends React.Component{
     render(){
         return(
             <div className="content-container">
-
                 <div className="sketch-container">
                     <img src={BalloonLogo} />
                 </div>
