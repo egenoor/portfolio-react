@@ -26,7 +26,19 @@ module.exports = {
             },
             {
                 test: /\.svg$/,
-                loader: 'svg-inline-loader' }
+                loader: 'svg-inline-loader'
+            },
+            {
+                test: /\.(pdf|png|jpg|gif)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 8192
+                        }
+                    }
+                ]
+            }
         ]
     },
     devServer:{
